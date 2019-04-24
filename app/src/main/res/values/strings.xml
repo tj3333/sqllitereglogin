@@ -1,0 +1,280 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Extroverts-Help</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="matherantext">Matheran</string>
+    <string name="descrpition">HISTORY:
+    Matheran is a hill station and a municipal council in Karjat Tahsilin the Raigad district in the Indian state of Maharashtra. It is one of the smallest hill station in India, it is located on the Western Ghats range at an elevation of around 800 m (2,625 feet) above sea level. It is about 90 km from Mumbai, and 120 km from Pune. Matherans proximity to many metropolitan cities makes it a popular weekend getaway for urban residents.
+    </string>
+    <string name="matheran">Matheran</string>
+    <string name="difficulty_level_moderate_to_difficult">DIFFICULTY LEVEL : MODERATE TO DIFFICULT</string>
+    <string name="best_season_june_march_matheran">BEST SEASON : JUNE-MARCH</string>
+
+
+    <string name="rajmachi">Rajmachi</string>
+    <string name="best_season_june_march_rajmachi">BEST SEASON : JUNE-MARCH</string>
+    <string name="DescriptionRajmachi">Rajmachi Fort (Killa) is one of the many historical forts in the rugged hills of Sahyadri mountains (Western Ghats). It consists of two twin fortresses Shriwardhan Ballekilla and Manaranjan Balekilla, with a wide machi (plateau) surrounding the two Balekillas. Udhewadi is a small village of about 22 houses situated on the machi, at the southern foot of Manaranjan Balekilla of Rajmachi Fort.The fort played a strategic role in the First Anglo-Maratha War.
+    </string>
+    <string name="difficulty_level_moderate_to_difficult_RAJMACHII">DIFFICULTY LEVEL : MODERATE TO DIFFICULT</string>
+
+
+    <string name="sanjay_gandhi_national_park">Sanjay Gandhi National Park</string>
+    <string name="difficulty_level_easy_to_difficult">Difficulty level : Easy to Difficult</string>
+    <string name="descriptionsgnp">History:
+        Sanjay Gandhi National Park is an 87 km2 (34 sq mi) protected area near Mumbai in Maharashtra State in India.It was formerly known as Borivali National Park.It is notable as one of the major national parks existing within a metropolis limit and is one of the most visited parks in the world.The rich flora and fauna of Sanjay Gandhi National Park attracts more than 2 million visitors every year.</string>
+    <string name="best_season_full_year_sgnp">BEST SEASON : FULL YEAR</string>
+    <string name="todo">TODO</string>
+
+
+    <string name="descriptionlonavala">HISTORY:
+    Lonavala or Lonavla (Marathi: लोणावळा is a town and a hill station Municipal Council in Pune district in the Indian State of Maharashtra.It is about 64 kilometres (40 mi) west of modern-day Pune city and 96 kilometres (60 mi) from the city of Mumbai. It is known for its production of the hard candy chikki and is also a major stop on the railway line connecting Mumbai and Pune.
+   </string>
+    <string name="lonavala">Lonavala</string>
+    <string name="difficulty_level_moderate_to_difficult_lonavala">DIFFICULTY LEVEL : MODERATE TO DIFFICULT</string>
+    <string name="best_season_june_to_march_lonavala">BEST SEASON : JUNE TO MARCH</string>
+    <string name="imglonavala">TODO</string>
+
+
+    <string name="descriptionraireshwar">History:
+    Raireshwar is situated in Bhor Taluka near Pune, India, 82 km away. It is situated in between various hills and forts such as Kenjalgad.
+In the Maratha age it was a significant fort (of Bhor State?) The places worth visiting at Raireshwar are Raireshwar Mandir, Gomukh Lake, Nakhinda (also known as Aswal Lake) and Pandavleni.
+    </string>
+    <string name="difficulty_level_easy_to_moderate_raireshwar">DIFFICULTY LEVEL : EASY TO MODERATE</string>
+    <string name="best_season_june_to_march_raireshwar">BEST SEASON : JUNE TO MARCH</string>
+    <string name="raireshwar">Raireshwar</string>
+    <string name="imgrai">TODO</string>
+
+
+    <string name="lohagad">Lohagad</string>
+    <string name="best_season_june_to_march">BEST SEASON : JUNE TO MARCH</string>
+    <string name="difficulty_level_easy_to_moderate">DIFFICULTY LEVEL : EASY TO MODERATE</string>
+    <string name="Descriptionlohagad">HISTORY:
+Lohagad (iron fort) is one of the many hill forts of Maharashtra state in India. Situated close to the hill station Lonavala and 52 km (32 mi) northwest of Pune, Lohagad rises to an elevation of 1,033 m (3,389 ft) above sea level. The fort is connected to the neighboring Visapur fort by a small range. The fort was under the Maratha empire for the majority of the time, with a short period of 5 years under the Mughal empire.
+</string>
+    <string name="Lohagad">TODO</string>
+    <string name="best_time_to_visit">Best time to visit</string>
+    <string name="blonavala">Lonavala</string>
+    <string name="bmatheran">Matheran</string>
+    <string name="braireshwar">Raireshwar</string>
+    <string name="blohagad">Lohagad</string>
+    <string name="brajmachi">Rajmachi</string>
+    <string name="bsanjay_gandhi_national_park">Sanjay Gandhi National Park</string>
+    <string name="Lonavalaimg">TODO</string>
+    <string name="lonavalaimg">TODO</string>
+    <string name="raireshwarimg">TODO</string>
+    <string name="rajmachiimg">TODO</string>
+    <string name="lohagadimg">TODO</string>
+    <string name="sgnpimg">TODO</string>
+    <string name="select_season">Select Season</string>
+    <string name="summer">Summer</string>
+    <string name="winter">Winter</string>
+    <string name="rainy">Rainy</string>
+    <string name="winter_season">Winter Season</string>
+    <string name="summer_season">Summer Season</string>
+    <string name="rainy_season">Rainy Season</string>
+    <string name="best_time_december_to_feburary_bmat">Best time :December to Feburary</string>
+    <string name="best_time_to_start_8_30am_bmat">Best time to start - 8:30AM</string>
+    <string name="best_time_to_leave_2pm_bmat">Best time to leave :2PM</string>
+    <string name="best_time_for_lunch_between_12pm_2pm_bmat">Best time for lunch : Between 12pm-2pm</string>
+    <string name="golden_time_to_click_pics_morning_6_57_7_43_evening_18_30_18_39_bwmat">Golden time to click pics : Morning 6:57-7:43 Evening 18:30-18:39</string>
+    <string name="best_time_march_may_bsmat">Best time: March-May</string>
+    <string name="best_time_to_start_7_00_am_bsmat">Best time to start - 7:00 AM</string>
+    <string name="best_time_to_leave_11am_bsmat">Best time to leave : 11AM</string>
+    <string name="best_time_for_lunch_13_00_bsmat">Best time for lunch - 13:00</string>
+    <string name="golden_time_to_click_pics_morning_6_10_6_53_evening_18_23_19_06_bsmat">Golden time to click pics : Morning 6:10-6:53 Evening 18:23-19:06</string>
+    <string name="best_time_june_to_september_bwmat">Best time : June to September</string>
+    <string name="best_time_to_start_8am_bwmat">Best time to start :8AM</string>
+    <string name="best_time_for_lunch_13_00_bwmat">Best time for lunch - 13:00</string>
+    <string name="golden_time_to_click_pics_morning_5_51_6_37_evening_18_47_19_33_bwmat">Golden time to click pics : Morning 5:51-6:37 Evening 18:47-19:33</string>
+    <string name="best_time_to_leave_13_00_bwmat">Best time to leave - 13:00</string>
+    <string name="mat">TODO</string>
+    <string name="title_activity_navigation">navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_navigate_d">NavigateD</string>
+    <string name="title_activity_nav_draw">NavDraw</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">REGISTER</string>
+    <string name="time">TODO</string>
+    <string name="map">TODO</string>
+    <string name="cardio">TODO</string>
+    <string name="help">TODO</string>
+    <string name="best_time_december_to_feburary_wsgnp">Best time :December to Feburary</string>
+    <string name="best_time_to_start_8_00am_wsgnp">Best time to start - 8:00AM</string>
+    <string name="best_time_to_leave_3pm_wsgnp">Best time to leave :3PM</string>
+    <string name="best_time_for_lunch_between_12pm_2pm_wsgnp">Best time for lunch : Between 12pm-2pm</string>
+    <string name="golden_time_to_click_pics_morning_5_55_6_40_evening_18_33_19_43_wsgnp">Golden time to click pics : Morning 5:55-6:40 Evening 18:33-19:43</string>
+    <string name="summer_season_ssgnp">Summer Season</string>
+    <string name="best_time_march_to_may_ssgnp">Best time :March to May</string>
+    <string name="best_time_to_start_8_00am_ssgnp">Best time to start - 8:00AM</string>
+    <string name="best_time_to_leave_3pm_ssgnp">Best time to leave :3PM</string>
+    <string name="best_time_for_lunch_between_12pm_2pm_ssgnp">Best time for lunch : Between 12pm-2pm</string>
+    <string name="golden_time_to_click_pics_morning_6_11_6_53_evening_18_25_19_08_ssgnp">Golden time to click pics :Morning 6:11-6:53 Evening 18:25-19:08</string>
+    <string name="rainy_season_rsgnp">Rainy Season</string>
+    <string name="best_time_june_september_rsgnp">Best time : June-September</string>
+    <string name="best_time_to_start_8_00_am_rsgnp">Best time to start - 8:00 AM</string>
+    <string name="best_time_to_leave_3pm_rsgnp">Best time to leave :3PM</string>
+    <string name="golden_time_to_click_pics_morning_6_05_6_49_evening_18_36_19_20_rsgnp">Golden time to click pics :Morning 6:05-6:49 Evening 18:36-19:20</string>
+    <string name="best_time_for_lunch_between_12pm_2pm_rsgnp">Best time for lunch : Between 12pm-2pm</string>
+    <string name="best_time_december_to_feburary_wrai">Best time :December to Feburary</string>
+    <string name="best_time_to_start_8_30am_wrai">Best time to start - 8:30AM</string>
+    <string name="best_time_to_leave_2pm_wrai">Best time to leave :2PM</string>
+    <string name="best_time_for_lunch_between_12pm_2pm_wrai">Best time for lunch : Between 12pm-2pm</string>
+    <string name="golden_time_to_click_pics_morning_6_43_7_29_evening_17_29_18_15_wrai">Golden time to click pics :Morning 6:43-7:29 Evening 17:29-18:15</string>
+    <string name="summer_season_srai">Summer Season</string>
+    <string name="best_time_to_start_8_30_am_srai">Best time to start : 8:30 AM</string>>
+
+    <string name="best_time_for_lunch_between_12pm_2pm_srai">Best time for lunch : Between 12pm-2pm</string>
+    <string name="golden_time_to_click_pics_morning_6_03_6_46_evening_18_23_19_06_srai">Golden time to click pics : Morning 6:03-6:46 Evening 18:23-19:06</string>
+    <string name="rainy_season_rrai">Rainy Season</string>
+
+    <string name="best_time_to_leave_2pm_rrai">Best time to leave :2PM</string>
+    <string name="golden_time_to_click_pics_morning_6_03_6_46_evening_18_32_19_16_rrai">Golden time to click pics :Morning 6:03-6:46 Evening 18:32-19:16</string>
+    <string name="best_time_for_lunch_between_12pm_2pm_rrai">Best time for lunch : Between 12pm-2pm</string>
+    <string name="best_time_to_visit_march_to_may_srai">Best time to visit : March to May</string>
+    <string name="best_time_to_visit_june_to_october_rrai">Best time to visit : June to October</string>
+    <string name="best_time_december_to_feburary_wloh">Best time :December to Feburary</string>
+    <string name="best_time_to_start_8_30am_wloh">Best time to start - 8:30AM</string>
+    <string name="best_time_to_leave_2pm_wloh">Best time to leave :2PM</string>
+    <string name="best_time_for_lunch_between_12pm_2pm_wloh">Best time for lunch : Between 12pm-2pm</string>
+    <string name="golden_time_to_click_pics_morning_6_56_7_42_evening_17_44_18_30_wloh">Golden time to click pics : Morning 6:56-7:42 Evening 17:44-18:30</string>
+    <string name="summer_season_sloh">Summer Season</string>
+    <string name="best_time_march_to_may_sloh">Best time :March to May</string>
+    <string name="best_time_to_start_8_00am_sloh">Best time to start - 8:00AM</string>
+    <string name="best_time_to_leave_2pm_sloh">Best time to leave :2PM</string>
+    <string name="best_time_for_lunch_between_12pm_2pm_sloh">Best time for lunch : Between 12pm-2pm</string>
+    <string name="golden_time_to_click_pics_morning_6_20_7_02_evening_18_19_19_02_sloh">Golden time to click pics : Morning 6:20-7:02 Evening 18:19-19:02</string>
+    <string name="rainy_season_rloh">Rainy Season</string>
+    <string name="best_time_june_to_october_rloh">Best time :June to October</string>
+    <string name="best_time_to_start_8_30am_rloh">Best time to start - 8:30AM</string>
+    <string name="best_time_to_leave_2pm_rloh">Best time to leave :2PM</string>
+    <string name="best_time_for_lunch_between_12pm_2pm_rloh">Best time for lunch : Between 12pm-2pm</string>
+    <string name="golden_time_to_click_pics_morning_6_08_6_51_evening_18_17_19_00_rloh">Golden time to click pics :Morning 6:08-6:51 Evening 18:17-19:00</string>
+    <string name="best_time_october_february_wlon">Best time : October - February</string>
+    <string name="best_time_to_start_8_30am_wlon">Best time to start - 8:30AM</string>
+    <string name="best_time_to_leave_2pm_wlon">Best time to leave :2PM</string>
+    <string name="best_time_for_lunch_between_12pm_2pm_wlon">Best time for lunch : Between 12pm-2pm</string>
+    <string name="golden_time_to_click_pics_morning_6_56_7_42_evening_17_44_18_30_wlon">Golden time to click pics - Morning 6:56-7:42 Evening 17:44-18:30</string>
+    <string name="summer_season_slon">Summer Season</string>
+    <string name="best_time_march_june_slon">Best time : March - June</string>
+    <string name="best_time_to_start_8_30am_slon">Best time to start - 8:30AM</string>
+    <string name="best_time_to_leave_2pm_slon">Best time to leave :2PM</string>
+    <string name="best_time_for_lunch_between_12pm_2pm_slon">Best time for lunch : Between 12pm-2pm</string>
+    <string name="golden_time_to_click_pics_morning_6_32_7_14_evening_18_16_1859_slon">Golden time to click pics - Morning 6:32-7:14 Evening 18:16-1859</string>
+    <string name="rainy_season_rlon">Rainy Season</string>
+    <string name="best_time_july_to_september_rlon">Best time :July to September</string>
+    <string name="best_time_to_start_8_30am_rlon">Best time to start - 8:30AM</string>
+    <string name="best_time_to_leave_2pm_rlon">Best time to leave :2PM</string>
+    <string name="best_time_for_lunch_between_12pm_2pm_rlon">Best time for lunch : Between 12pm-2pm</string>
+    <string name="golden_time_to_click_pics_morning_6_10_6_52_evening_18_12_18_54_rlon">Golden time to click pics : Morning 6:10-6:52 Evening 18:12-18:54</string>
+    <string name="best_time_november_to_january_wraj">Best time : November to January</string>
+    <string name="best_time_to_start_8_30am_wraj">Best time to start - 8:30AM</string>
+    <string name="best_time_to_leave_2pm_wraj">Best time to leave :2PM</string>
+    <string name="best_time_for_lunch_between_12pm_2pm_wraj">Best time for lunch : Between 12pm-2pm</string>
+    <string name="golden_time_to_click_pics_morning_6_27_7_02_evening_17_28_18_13_wraj">Golden time to click pics :Morning 6:27-7:02 Evening 17:28-18:13</string>
+    <string name="summer_season_sraj">Summer Season</string>
+    <string name="best_time_march_to_may_sraj">Best time : March to May</string>
+    <string name="best_time_to_start_8_30am_sraj">Best time to start - 8:30AM</string>
+    <string name="best_time_to_leave_2pm_sraj">Best time to leave :2PM</string>
+    <string name="best_time_for_lunch_between_12pm_2pm_sraj">Best time for lunch : Between 12pm-2pm</string>
+    <string name="golden_time_to_click_pics_morning_6_09_6_52_evening_18_23_19_06_sraj">Golden time to click pics :Morning 6:09-6:52 Evening 18:23-19:06</string>
+    <string name="rainy_season_rraj">Rainy Season</string>
+    <string name="best_time_january_to_september_rraj">Best time :January to September</string>
+    <string name="best_time_to_start_8_30am_rraj">Best time to start - 8:30AM</string>
+    <string name="best_time_to_leave_2pm_rraj">Best time to leave :2PM</string>
+    <string name="best_time_for_lunch_between_12pm_2pm_rraj">Best time for lunch : Between 12pm-2pm</string>
+    <string name="golden_time_to_click_pics_morning_5_51_6_37_evening_18_46_19_32_rraj">Golden time to click pics : Morning 5:51-6:37 Evening 18:46-19:32</string>
+    <string name="best_time_to_start_8_30_am_rrai">Best time to start : 8:30 AM</string>
+    <string name="best_time_to_leave_2_pm_srai">Best time to leave : 2 PM</string>
+    <string name="enter_youtube_video_id">Enter Youtube video Id</string>
+    <string name="play_videos">Play Video</string>
+    <string name="gText">9 Tips To Descend Safely On A Trek  :
+        When trekkers start out on long descents, you often hear them say that the uphill climb was easier. This is because they don not know the right technique of descending. There IS a right technique of descending down a slope, which shows you with illustrations in this video.Most trekkers make the mistake of either slowing down too much while descending, or they don not use a trekking pole. Or perhaps they don not tie their shoelaces tight enough. These are techniques that can save your knees at the end of a long days descent. In this video, trekker points out nine useful tips to descend safely on a trek. These points can change the way you descend down a slope - even if you have a knee injury! </string>
+    <string name="Next">Next</string>
+    <string name="play_video1">Play Video</string>
+    <string name="next1">Next</string>
+    <string name="gtext1"> BagPack:
+        There is just one rule you follow while packing your bag. The ABCD Rule. A - Accessibility, B - Balance, C - Compactness and D - Done the above. Its as simple as that.
+    Water Bottle
+    Munching Items: Trail Mix, Dry Fruits, Chocolates or Energy Bars.
+    Daypack or Backpack – Travel Light and Organized.
+    Trekking Shoes or Hiking Boots – Walk the talk on your Hike or Trek.
+    Swiss Knife – A multi-purpose toolset.</string>
+    <string name="play_video11">Play Video</string>
+    <string name="play_video12">Play Video</string>
+    <string name="play_video13">Play Video</string>
+    <string name="total_price">TOTAL PRICE</string>
+    <string name="check_out">CHECK OUT</string>
+    <string name="price">PRICE</string>
+    <string name="quantity">quantity</string>
+    <string name="ADD">+</string>
+    <string name="initial_quantity_value">initial quantity value</string>
+    <string name="total">TOTAL</string>
+    <string name="SUB">-</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="switch1">switch</string>
+    <string name="ItemName">Name</string>
+    <string name="name_of_the_place">Name of the place</string>
+    <string name="name">Name :</string>
+    <string name="min_cost">Min-Cost :</string>
+    <string name="valuation">valuation</string>
+    <string name="things_to_carry">Things to carry :</string>
+    <string name="first_aid_box_water_bottle_trekking_knife_trekking_shoes">First aid box, water bottle, trekking knife,Trekking shoes</string>
+    <string name="textview">TextView</string>
+    <string name="list">List</string>
+    <string name="place_name">Place Name</string>
+    <string name="route">Route</string>
+    <string name="expenditure">Expenditure</string>
+    <string name="count_initial_value">0</string>
+    <string name="button_label">Send</string>
+    <string name="toast_message">Hurra!</string>
+    <string name="input_placeholder">Write a message</string>
+    <string name="rose">Rose</string>
+    <string name="how_are_you_doing_this_is_a_long_message_that_should_probably_wrap">How are you doing? This is a long message that should probably wrap.</string>
+    <string name="placeholder_message">Placeholder message</string>
+    <string name="save_image">Save Image</string>
+    <string name="download_image">Download Image</string>
+    <string name="load">TODO</string>
+    <string name="img">TODO</string>
+    <string name="select_image">selectimage</string>
+    <string name="save_image_in_db">saveimgindb</string>
+    <string name="load_image_in_db">loadimgindb</string>
+    <string name="select_an_image_and_save_in_db">selectimgandsaveindb</string>
+    <string name="tv_status">tvStatus</string>
+    <string name="load_image">Load Image</string>
+    <string name="imgload">TODO</string>
+    <string name="search">search</string>
+    <string name="upload">upload</string>
+    <string name="download">download</string>
+    <string name="police">POLICE</string>
+    <string name="health">HEALTH</string>
+    <string name="helpline_number">Helpline Number</string>
+    <string name="_100">100</string>
+    <string name="_102_1298">102,1298</string>
+    <string name="_103">103</string>
+    <string name="_108">108</string>
+    <string name="_1090">1090</string>
+    <string name="_112">112</string>
+    <string name="ambulace">AMBULACE</string>
+    <string name="common_emergency_number">COMMON EMERGENCY NUMBER</string>
+    <string name="citizen_helpline">CITIZEN HELPLINE</string>
+    <string name="women_safety">WOMEN SAFETY</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="admin_name">Admin name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="ad">TODO</string>
+    <string name="iconl">TODO</string>
+    <string name="sign_in_edi_hint">example@example.com</string>
+    <string name="pass">Password</string>
+    <string name="sign_up_click_txt">Not a User? Create Account</string>
+    <string name="dialog_text">after this quiz we got your interestWe decide you should go to</string>
+
+</resources>

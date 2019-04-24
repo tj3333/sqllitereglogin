@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.santoshyadav.sqllitereglogin">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ImageList" />
+        <activity android:name=".Adminlogin" />
+        <activity android:name=".Help" />
+        <activity android:name=".UploadAct" />
+        <activity android:name=".Chat" />
+        <activity android:name=".RouteMapActivity" />
+        <activity android:name=".MarkerInfoActivity" />
+        <activity android:name=".Expenditure" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".Shopping" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".CartAdapter" />
+        <activity android:name=".Guide" />
+        <activity android:name=".Drawer" />
+        <activity android:name=".Design" />
+        <activity android:name=".Besttimesgnp" />
+        <activity android:name=".Besttimerajmachi" />
+        <activity android:name=".BesttimeRaireshwar" />
+        <activity android:name=".BesttimeLohagad" />
+        <activity android:name=".Besttimelonavala" />
+        <activity android:name=".Besttimematheran" />
+        <activity android:name=".Seasons" />
+        <activity android:name=".Besttime" />
+        <activity android:name=".Raireshwar" />
+        <activity android:name=".SGNP" />
+        <activity android:name=".Rajmachi" />
+        <activity android:name=".Lohagad" />
+        <activity android:name=".Lonavala" />
+        <activity android:name=".Matheran" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ExtrovertHome" />
+        <activity android:name=".QuizHome" />
+        <activity android:name=".QuotesHome" />
+
+        <provider
+            android:name=".data.ItemProvider"
+            android:authorities="com.example.santoshyadav.sqllitereglogin"
+            android:exported="false" />
+
+        <activity android:name=".Activity.SplashActivity">
+            //todo splash intent
+            //todo temp intent
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.Main2Activity" />
+        <activity android:name=".Activity.BookingActivity" />
+        <activity android:name=".Activity.PlacesDescriptionActivity" />
+        <activity android:name=".Activity.QuizHome2Actvity" />
+        <activity android:name=".Activity.QuizHome3Activity" />
+        <activity android:name=".Activity.QuizHome4Activity" />
+        <activity android:name=".Activity.QuizHome5Activity"></activity>
+        <activity android:name=".MapsShort.MapsActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app"
+    android:gravity="center"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/imgl"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/iconl"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/icon_terk" />
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_hasFocus="false"
+        app:mtf_image="@drawable/icon_email8"
+        app:mtf_openKeyboardOnFocus="true">
+
+        <!--
+        app:mtf_animationDuration="1000"
+        app:mtf_cardColor="@color/cardview_dark_background"
+        app:mtf_labelColor="@android:color/holo_red_dark"
+        app:mtf_openKeyboardOnFocus="true"
+        -->
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/white"
+            android:textSize="15sp" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_hasFocus="false"
+        app:mtf_image="@drawable/icon_password8"
+        app:mtf_openKeyboardOnFocus="true">
+
+        <!--
+        app:mtf_animationDuration="1000"
+        app:mtf_cardColor="@color/cardview_dark_background"
+        app:mtf_labelColor="@android:color/holo_red_dark"
+        app:mtf_openKeyboardOnFocus="true"
+        -->
+
+        <EditText
+            android:id="@+id/txtPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/white"
+            android:textSize="15sp" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:elevation="5dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/corner_curv"
+/>
+
+    <TextView
+        android:id="@+id/tvcreateacc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="@string/sign_up_click_txt"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+/>
+
+</LinearLayout>

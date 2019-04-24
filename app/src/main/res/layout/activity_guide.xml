@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient_quiz"
+    tools:context=".Guide">
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtube_player_view"
+                android:layout_width="390dp"
+                android:layout_height="303dp">
+
+            </com.google.android.youtube.player.YouTubePlayerView>
+
+            <Button
+                android:id="@+id/Play_Button"
+                android:layout_width="149dp"
+                android:layout_height="67dp"
+                android:background="@color/silver"
+                android:text="@string/play_videos"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:visibility="gone"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gtext"
+                android:layout_width="341dp"
+                android:layout_height="438dp"
+                android:text="@string/gText"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="14sp"
+                android:layout_marginTop="16dp"
+                app:fontFamily="serif" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+

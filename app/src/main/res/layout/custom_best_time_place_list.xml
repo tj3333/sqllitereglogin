@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/cardViewBEstTime"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginRight="@dimen/ten_dp"
+    android:layout_marginLeft="@dimen/ten_dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardElevation="4dp"
+    card_view:cardCornerRadius="3dp">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:id="@+id/custom_img_best_time"
+                android:src="@drawable/load"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/bg_gradient_dark"
+                />
+
+            <TextView
+                android:id="@+id/custom_text_best_time"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manali"
+                android:textStyle="italic"
+                android:paddingRight="@dimen/thirty_dp"
+                android:layout_marginBottom="@dimen/ten_dp"
+                android:textSize="20sp"
+                android:textAlignment="viewEnd"
+                android:layout_gravity="bottom"/>
+
+        </FrameLayout>
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

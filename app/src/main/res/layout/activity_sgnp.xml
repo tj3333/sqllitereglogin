@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SGNP">
+
+    <ImageView
+        android:id="@+id/sngpimg"
+        android:layout_width="416dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.274"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/sgnp" />
+
+    <TextView
+        android:id="@+id/sngptext1"
+        android:layout_width="355dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/sanjay_gandhi_national_park"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/dodger_blue"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/alegreya_bold_italic"
+        app:layout_constraintBottom_toTopOf="@id/sngptext2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sngpimg"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <TextView
+        android:id="@+id/sngptext2"
+        android:layout_width="345dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/best_season_full_year_sgnp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:fontFamily="serif"
+        app:layout_constraintBottom_toTopOf="@+id/sngptext3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sngptext1" />
+
+    <TextView
+        android:id="@+id/sngptext3"
+        android:layout_width="409dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/difficulty_level_easy_to_difficult"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:fontFamily="serif"
+        app:layout_constraintBottom_toTopOf="@+id/sngptext4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sngptext2" />
+
+    <TextView
+        android:id="@+id/sngptext4"
+        android:layout_width="346dp"
+        android:layout_height="345dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/descriptionsgnp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:fontFamily="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sngptext3"
+        app:layout_constraintVertical_bias="0.216" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

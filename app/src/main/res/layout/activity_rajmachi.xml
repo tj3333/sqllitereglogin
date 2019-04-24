@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rajtext1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rajmachi">
+
+    <ImageView
+        android:id="@+id/rajimg"
+        android:layout_width="425dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/rajmachi" />
+
+    <TextView
+        android:id="@id/rajtext1"
+        android:layout_width="164dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/rajmachi"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/dodger_blue"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/alegreya_bold_italic"
+        app:layout_constraintBottom_toTopOf="@+id/rajtext2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rajimg"
+        tools:text="Rajmachi" />
+
+    <TextView
+        android:id="@+id/rajtext2"
+        android:layout_width="350dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/best_season_full_year_sgnp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:fontFamily="serif"
+        app:layout_constraintBottom_toTopOf="@+id/rajtext3"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rajtext1" />
+
+    <TextView
+        android:id="@+id/rajtext3"
+        android:layout_width="350dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/difficulty_level_moderate_to_difficult_RAJMACHII"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:fontFamily="serif"
+
+        app:layout_constraintBottom_toTopOf="@+id/rajtext4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rajtext2" />
+
+    <TextView
+        android:id="@+id/rajtext4"
+        android:layout_width="345dp"
+        android:layout_height="303dp"
+        android:text="@string/DescriptionRajmachi"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:fontFamily="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.651"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rajtext3" />
+
+</android.support.constraint.ConstraintLayout>

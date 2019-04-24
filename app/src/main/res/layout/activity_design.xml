@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app"
+    android:gravity="center"
+    tools:context=".Design">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/best_time_view"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/ten_dp"
+            android:layout_marginLeft="@dimen/ten_dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="4dp"
+            card_view:cardCornerRadius="3dp">
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <FrameLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp">
+
+                    <ImageView
+                        android:layout_marginTop="@dimen/twenty_db"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/icon_timer"
+                        />
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@drawable/bg_gradient_dark"
+                        />
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Best Time"
+                        android:textStyle="italic"
+                        android:paddingRight="@dimen/thirty_dp"
+                        android:layout_marginBottom="@dimen/ten_dp"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:layout_gravity="bottom"/>
+
+                </FrameLayout>
+                destination ,current place ,minimum cost by bus and car
+
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_weight="1"
+            android:id="@+id/places_on_map_view"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginRight="@dimen/ten_dp"
+            android:layout_marginLeft="@dimen/ten_dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="4dp"
+            card_view:cardCornerRadius="3dp">
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <FrameLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp">
+
+                    <ImageView
+                        android:layout_marginTop="@dimen/twenty_db"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/icon_location"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@drawable/bg_gradient_dark"
+                        />
+
+                    <TextView
+                        android:id="@+id/custom_text_best_time"
+                        android:textColor="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Places on map"
+                        android:textStyle="italic"
+                        android:paddingRight="@dimen/thirty_dp"
+                        android:layout_marginBottom="@dimen/ten_dp"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:layout_gravity="bottom"/>
+
+                </FrameLayout>
+
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:id="@+id/quiz_view"
+            android:layout_marginRight="@dimen/ten_dp"
+            android:layout_marginLeft="@dimen/ten_dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="4dp"
+            card_view:cardCornerRadius="3dp">
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <FrameLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp">
+
+                    <ImageView
+                        android:layout_marginTop="@dimen/twenty_db"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/icon_help"
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@drawable/bg_gradient_dark"
+                        />
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Quiz"
+                        android:textStyle="italic"
+                        android:paddingRight="@dimen/thirty_dp"
+                        android:layout_marginBottom="@dimen/ten_dp"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:layout_gravity="bottom"/>
+
+                </FrameLayout>
+
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_weight="1"
+            android:id="@+id/shopping_view"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginRight="@dimen/ten_dp"
+            android:layout_marginLeft="@dimen/ten_dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="4dp"
+            card_view:cardCornerRadius="3dp">
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <FrameLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp">
+
+                    <ImageView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/icon_expenditure"
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@drawable/bg_gradient_dark"
+                        />
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/expenditure"
+                        android:textStyle="italic"
+                        android:paddingRight="@dimen/thirty_dp"
+                        android:layout_marginBottom="@dimen/ten_dp"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:layout_gravity="bottom"/>
+
+                </FrameLayout>
+
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:padding="10dp"
+        android:id="@+id/book_view"
+        android:layout_marginRight="@dimen/ten_dp"
+        android:layout_marginLeft="@dimen/ten_dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="4dp"
+        card_view:cardCornerRadius="3dp">
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+
+                <ImageView
+                    android:layout_marginTop="@dimen/twenty_db"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/icon_car"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/bg_gradient_dark"
+                    />
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Booking"
+                    android:textStyle="italic"
+                    android:paddingRight="@dimen/thirty_dp"
+                    android:layout_marginBottom="@dimen/ten_dp"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:layout_gravity="bottom"/>
+
+            </FrameLayout>
+
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

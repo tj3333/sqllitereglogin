@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg_app"
+    android:gravity="center">
+
+    <LinearLayout
+        android:padding="@dimen/thirty_dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/txtfname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences"
+        android:background="@drawable/corner_curv_2"
+        android:paddingTop="@dimen/ten_dp"
+        android:paddingBottom="@dimen/ten_dp"
+        android:paddingLeft="@dimen/twenty_db"
+        android:elevation="10dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:hint="First Name"
+ />
+
+    <EditText
+        android:layout_marginTop="@dimen/twenty_db"
+        android:id="@+id/txtlname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences"
+        android:hint="Last Name"
+        android:background="@drawable/corner_curv_2"
+        android:paddingTop="@dimen/ten_dp"
+        android:paddingBottom="@dimen/ten_dp"
+        android:paddingLeft="@dimen/twenty_db"
+        android:elevation="10dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+       />
+        <EditText
+            android:layout_marginTop="@dimen/twenty_db"
+            android:id="@+id/txtemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/corner_curv_2"
+            android:paddingTop="@dimen/ten_dp"
+            android:paddingBottom="@dimen/ten_dp"
+            android:paddingLeft="@dimen/twenty_db"
+            android:elevation="10dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            />
+
+
+        <EditText
+        android:layout_marginTop="@dimen/twenty_db"
+        android:id="@+id/txtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/corner_curv_2"
+        android:paddingTop="@dimen/ten_dp"
+        android:paddingBottom="@dimen/ten_dp"
+        android:paddingLeft="@dimen/twenty_db"
+        android:elevation="10dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        />
+    <EditText
+        android:layout_marginTop="@dimen/twenty_db"
+        android:id="@+id/txtconfpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:background="@drawable/corner_curv_2"
+        android:paddingTop="@dimen/ten_dp"
+        android:paddingBottom="@dimen/ten_dp"
+        android:paddingLeft="@dimen/twenty_db"
+        android:elevation="10dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"/>
+
+
+    <EditText
+        android:layout_marginTop="@dimen/twenty_db"
+        android:id="@+id/txtphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:background="@drawable/corner_curv_2"
+        android:paddingTop="@dimen/ten_dp"
+        android:paddingBottom="@dimen/ten_dp"
+        android:paddingLeft="@dimen/twenty_db"
+        android:elevation="10dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:layout_marginTop="@dimen/thirty_dp"
+        android:id="@+id/btnReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/corner_curv"
+        android:text="Sign Up" />
+
+    <TextView
+        android:layout_marginTop="@dimen/ten_dp"
+        android:id="@+id/tvAlreadyUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already a user? Login"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    </LinearLayout>
+</LinearLayout>

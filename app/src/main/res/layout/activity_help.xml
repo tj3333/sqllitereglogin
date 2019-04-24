@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app"
+    android:orientation="vertical"
+    tools:context=".Help">
+
+
+    <TextView
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="30sp"
+        android:text="Can I Help you ?"/>
+
+    <ImageView
+        android:src="@drawable/help_you"
+        android:layout_width="200dp"
+        android:layout_marginRight="-20dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:text="Helpline Numbers:\n"/>
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8104124282 / 022-123456"/>
+
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:text="24/7 services\n"/>
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:id="@+id/police"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Police "/>
+
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:id="@+id/ambulance"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Ambulance"/>
+
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:id="@+id/citizen_helpline"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Citizen Helpline"/>
+
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:id="@+id/health"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Health"/>
+
+
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:id="@+id/woman_safety"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Woman Safety"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+{
+  "Item": [
+    {
+      "ItemName": "Bag",
+      "description": "INLANDER 9001 Navy Blue 70+5L Rucksack Daypack Backpack Bag for Travel Hiking Trekking & Camping for Men & Women",
+      "imageUrl": "navybluebag.jpg",
+      "price": 1839,
+      "userRating": 4
+    },
+    {
+      "ItemName": "FlashLight",
+      "description": "GKP PRODUCTS 6 LED Solar Power Camping Lantern Light Rechargable Collapsible Night Light Waterproof Outdoor Super Bright Hiking Flashlight ",
+      "imageUrl": "flashlight.jpg",
+      "price": 399,
+      "userRating": 4
+    }
+
+  ]
+}
